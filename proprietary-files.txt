@@ -1,0 +1,343 @@
+# All blobs from sheldonp-user 7.0 PS7242 3515 amz-p,release-keys, unless pinned
+
+# Audio
+vendor/lib/libaudiocomponentengine_vendor.so
+vendor/lib/libaudiohalopen_vendor.so
+vendor/lib/libaudiohwsyncbridge.so
+vendor/lib/libaudiomixer.so
+vendor/lib/libaudioresampler.so
+vendor/lib/libtinycompress.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+
+# Audio-Hardware
+vendor/bin/hw/fireos.hardware.audio@2.0-service
+vendor/etc/init/fireos.hardware.audio@2.0-service.rc
+vendor/lib/fireos.hardware.audio@2.0.so
+vendor/lib/fireos.hardware.audio@4.0.so
+vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so
+vendor/lib/fireos.hardware.audiosignalprocessor@1.1.so
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
+vendor/lib/hw/android.hardware.audio@4.0-impl.so
+vendor/lib/hw/audio.btle.default.so
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.mt8695.so
+vendor/lib/hw/audio.primary.proxy.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.r_submix.mt8695.so
+vendor/lib/hw/audio.stub.default.so
+vendor/lib/hw/audio.usb.default.so
+vendor/lib/hw/audio_policy.stub.so
+vendor/lib/hw/fireos.hardware.audio@4.0-impl.so
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
+vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
+vendor/lib/libbluetooth_mtk.so
+vendor/lib/libbt-vendor.so
+
+# Camera
+vendor/bin/hw/android.hardware.camera.provider@2.4-external-service
+vendor/etc/init/android.hardware.camera.provider@2.4-external-service.rc
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib/libvdec_app.so
+
+# Configstore
+vendor/bin/hw/android.hardware.configstore@1.1-service
+vendor/etc/init/android.hardware.configstore@1.1-service.rc
+
+# DRM
+vendor/lib/liboemcrypto.so
+
+# DRM-HDCP
+vendor/lib/libhdcprx.so
+
+# DRM-Hardware
+vendor/bin/hw/android.hardware.drm@1.0-service
+vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
+vendor/bin/hw/android.hardware.drm@1.1-service.fairplay
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/bin/hw/fireos.hardware.drmprov@1.0-service
+vendor/etc/init/android.hardware.drm@1.0-service.rc
+vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
+vendor/etc/init/android.hardware.drm@1.1-service.fairplay.rc
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+vendor/etc/init/fireos.hardware.drmprov@1.0-service.rc
+vendor/lib/fireos.hardware.drmprov@1.0.so
+vendor/lib/hw/android.hardware.drm@1.0-impl.so
+vendor/lib/hw/fireos.hardware.drmprov@1.0-impl.so
+
+# DRM-Widevine
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so
+vendor/lib/mediadrm/libplayreadydrmplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# Display-Hardware
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
+vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+vendor/bin/hw/android.hardware.memtrack@1.0-service
+vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
+vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc
+vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
+vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/gralloc.mt8695.so
+vendor/lib/hw/hwcomposer.mt8695.so
+vendor/lib/hw/memtrack.mt8695.so
+vendor/lib/libdrm.so
+
+# Dolby
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/lib/libstagefrightdolby.so
+
+# Firmware
+vendor/firmware/bt.cfg
+vendor/firmware/EEPROM_MT7663.bin
+vendor/firmware/mt7663_patch_e2_hdr.bin
+vendor/firmware/pcm_allinone_lp3_1866.bin
+vendor/firmware/pcm_allinone_lp4_3200.bin
+vendor/firmware/pcm_allinone_lp4_3733.bin
+vendor/firmware/rgx.fw.signed
+vendor/firmware/TxPwrLimit_MT76x3.dat
+vendor/firmware/wifi.cfg
+vendor/firmware/WIFI_RAM_CODE_MT7663.bin
+vendor/firmware/woble_setting_7663.bin
+
+# GPS
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.mt8695.so
+
+# Graphics
+vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+vendor/lib/hw/vulkan.mt8695.so
+vendor/lib/libOpenCL.so
+
+# Health
+vendor/bin/hw/android.hardware.health@2.0-service
+vendor/bin/hw/android.hardware.health@2.0-service.override
+vendor/etc/init/android.hardware.health@2.0-service.rc
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
+vendor/lib/hw/keystore.mt8695.so
+vendor/lib/libkeymaster3device.so
+vendor/lib/libkeystore-engine-wifi-hidl.so
+vendor/lib/libkeystore-wifi-hidl.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+
+# Listen
+
+# Media
+
+# Media-Hardware
+vendor/lib/libstagefrighthw.so
+
+# Mediatek
+vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
+vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
+vendor/bin/hw/vendor.mediatek.hardware.hdmi@1.1-service
+vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service
+vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
+vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc
+vendor/etc/init/vendor.mediatek.hardware.hdmi@1.1-service.rc
+vendor/etc/init/vendor.mediatek.hardware.keymanage@1.0-service.rc
+vendor/etc/media_codecs_mediatek_video.xml
+vendor/lib/hw/vendor.mediatek.hardware.hdmi@1.1-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so
+vendor/lib/libmtkaudiospdif.so
+vendor/lib/libmtkbufferqueue.so
+vendor/lib/libmtklimiter_vendor.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libmtkshifter_vendor.so
+vendor/lib/libmtk_drvb.so
+vendor/lib/libmtk_eglx.so
+vendor/lib/libmtk_gralloc_common.so
+vendor/lib/vendor.mediatek.hardware.hdmi@1.0.so
+vendor/lib/vendor.mediatek.hardware.hdmi@1.1.so
+vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so
+vendor/lib/vendor.mediatek.hardware.lbs@1.0.so
+vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
+vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
+
+# Perf
+
+# Postprocessing
+
+# Power-Hardware
+vendor/lib/hw/power.default.so
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Thermal
+vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+vendor/etc/.tp/thermal.policy.conf
+vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc
+vendor/lib/fireos.hardware.amazonthermal@1.0.so
+vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so
+
+# Thermal-Hardware
+vendor/lib/hw/thermal.mt8695.so
+
+# Time
+
+# Vibrator
+vendor/lib/hw/vibrator.default.so
+
+# WiFi
+bin/iwpriv
+vendor/bin/iwpriv
+
+# Misc
+vendor/bin/amzn_dha_hmac
+vendor/bin/amzn_dha_tool
+vendor/bin/amzn_drmprov_check
+vendor/bin/amzn_drmprov_tool
+vendor/bin/amzn_xo_tool
+vendor/bin/avsyncservice
+vendor/bin/btmac
+vendor/bin/cli
+vendor/bin/hw/android.hardware.tv.cec@1.0-service
+vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service
+vendor/bin/hw/fireos.hardware.fireosdha@1.0-service
+vendor/bin/hw/fireos.hardware.hdcp@1.0-service
+vendor/bin/hw/fireos.hardware.hdmitxinfo@1.0-service
+vendor/bin/hw/fireos.hardware.idme@1.0-service
+vendor/bin/hw/fireos.hardware.localtime@1.0-service
+vendor/bin/hw/fireos.hardware.mediametrics@1.0-service
+vendor/bin/idme
+vendor/bin/kisd
+vendor/bin/meta_tst
+vendor/bin/mfv_ut
+vendor/bin/nvram_daemon
+vendor/bin/pr_device_cert_id
+vendor/bin/rpmb_svc
+vendor/bin/securetime
+vendor/bin/wipe_fos_flags
+vendor/data/misc/ProjectConfig.mk
+vendor/etc/.tp/.ht120.mtc
+vendor/etc/external_camera_config.xml
+vendor/etc/hearing_aid_audio_policy_configuration.xml
+vendor/etc/init/amzn_drmprov_check.rc
+vendor/etc/init/amzn_xo_tool.rc
+vendor/etc/init/android.hardware.tv.cec@1.0-service.rc
+vendor/etc/init/avsyncservice.rc
+vendor/etc/init/bootperf.rc
+vendor/etc/init/btmac.rc
+vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc
+vendor/etc/init/fireos.hardware.fireosdha@1.0-service.rc
+vendor/etc/init/fireos.hardware.hdcp@1.0-service.rc
+vendor/etc/init/fireos.hardware.hdmitxinfo@1.0-service.rc
+vendor/etc/init/fireos.hardware.idme@1.0-service.rc
+vendor/etc/init/fireos.hardware.localtime@1.0-service.rc
+vendor/etc/init/fireos.hardware.mediametrics@1.0-service.rc
+vendor/etc/init/init.wipe_fos_flags.rc
+vendor/etc/init/kisd.rc
+vendor/etc/init/nvram_daemon.rc
+vendor/etc/init/pr_device_cert_id.rc
+vendor/etc/init/rpmb_svc.rc
+vendor/etc/init/securetime.rc
+vendor/etc/init/wifi_log_levels.rc
+vendor/etc/mtk_omx_core.cfg
+vendor/etc/partition_permission.sh
+vendor/etc/throttle.sh
+vendor/lib/fireos.hardware.avsync@1.0.so
+vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so
+vendor/lib/fireos.hardware.connectivity@1.0.so
+vendor/lib/fireos.hardware.fireosdha@1.0.so
+vendor/lib/fireos.hardware.hdcp@1.0.so
+vendor/lib/fireos.hardware.hdmitxinfo@1.0.so
+vendor/lib/fireos.hardware.idme@1.0.so
+vendor/lib/fireos.hardware.localtime@1.0.so
+vendor/lib/fireos.hardware.mediametrics@1.0.so
+vendor/lib/hw/amzn_dha.mt8695.so
+vendor/lib/hw/amzn_drmprov.mt8695.so
+vendor/lib/hw/android.hardware.tv.cec@1.0-impl.so
+vendor/lib/hw/fireos.hardware.avsync@1.0-impl.so
+vendor/lib/hw/fireos.hardware.fireosdha@1.0-impl.so
+vendor/lib/hw/fireos.hardware.hdmitxinfo@1.0-impl.so
+vendor/lib/hw/fireos.hardware.idme@1.0-impl.so
+vendor/lib/hw/hdmi_cec.mt8695.so
+vendor/lib/hw/libSoftGatekeeper.so
+vendor/lib/hw/local_time.mt8695.so
+vendor/lib/hw/tv_input.default.so
+vendor/lib/libamazonlog.so
+vendor/lib/libavsync.so
+vendor/lib/libavsyncwrapper.so
+vendor/lib/libblisrc32_vendor.so
+vendor/lib/libbwc.so
+vendor/lib/libccci_util.so
+vendor/lib/libcommon_time_client_vendor.so
+vendor/lib/libcustom_nvram.so
+vendor/lib/libdirect-coredump.so
+vendor/lib/libdpframework.so
+vendor/lib/libeac3dec.so
+vendor/lib/libfbm.so
+vendor/lib/libfile_op.so
+vendor/lib/libFPS.so
+vendor/lib/libfpsplugin.so
+vendor/lib/libglslcompiler.so
+vendor/lib/libgralloc_extra.so
+vendor/lib/libhwm.so
+vendor/lib/libhwminijail.so
+vendor/lib/libIMGegl.so
+vendor/lib/libion_mtk.so
+vendor/lib/libion_ulit.so
+vendor/lib/libkmsetkey.so
+vendor/lib/libladder.so
+vendor/lib/liblatencybenchmarker_interface.so
+vendor/lib/liblatencybenchmarker_vendor.so
+vendor/lib/liblineartransform_vendor.so
+vendor/lib/libm4u.so
+vendor/lib/libmediaextension_vendor.so
+vendor/lib/libmemtrack_GL.so
+vendor/lib/libms12.so
+vendor/lib/libnvram.so
+vendor/lib/libnvram_daemon_callback.so
+vendor/lib/libnvram_platform.so
+vendor/lib/libopuscodec.so
+vendor/lib/libplayready.so
+vendor/lib/libpostprocessingFW.so
+vendor/lib/libPVROCL.so
+vendor/lib/libPVRScopeServices.so
+vendor/lib/libsrv_um.so
+vendor/lib/libstagefright_soft_eac3dec.so
+vendor/lib/libsysenv.so
+vendor/lib/libTAFps.so
+vendor/lib/libtqvalidate.so
+vendor/lib/libtz_uree.so
+vendor/lib/libudf.vendor.so
+vendor/lib/libufwriter.so
+vendor/lib/liburee_fps.so
+vendor/lib/liburee_meta_drmkeyinstall_v2.so
+vendor/lib/libusc.so
+vendor/lib/libvcodecdrv.so
+vendor/lib/libvcodec_oal.so
+vendor/lib/libvcodec_utility.so
+vendor/lib/libvendoraudiospdif.so
+vendor/lib/libwifi-hal.so
+vendor/lib/lib_uree_mtk_modular_drm.so
+vendor/lib/lib_uree_mtk_video_secure_al.so

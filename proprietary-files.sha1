@@ -1,0 +1,343 @@
+# All blobs are from "sheldonp-user 7.0 PS7242 3515 amz-p,release-keys" and are pinned with sha1sum values
+
+# Audio
+vendor/lib/libaudiocomponentengine_vendor.so|f92b8bd6d77eeb0826a20606ff08b7360b41344c
+vendor/lib/libaudiohalopen_vendor.so|e00539de1a85f1eb9cd90e78a3c38330666ebe43
+vendor/lib/libaudiohwsyncbridge.so|3a8ec83e80518686d3c4f2c0c2bb2f8db7274f50
+vendor/lib/libaudiomixer.so|ca1ef9be911046e202644279ae63b0c0cbfa7d40
+vendor/lib/libaudioresampler.so|c32daee905990adf522313235aa095216ec72178
+vendor/lib/libtinycompress.so|64df64a8f99e6439d234dcd22ea223ffa300d771
+vendor/lib/soundfx/libaudiopreprocessing.so|f6b4acfe26468584017e046fcf77297cf8538d15
+
+# Audio-Hardware
+vendor/bin/hw/fireos.hardware.audio@2.0-service|7c12de68bfe87e327fdf9740972ffc2bb4983e8f
+vendor/etc/init/fireos.hardware.audio@2.0-service.rc|d1a50bf8b9996440c84b968a8394c9c9e5f9c326
+vendor/lib/fireos.hardware.audio@2.0.so|50319f808791f8535fb3376f47596285e05b5087
+vendor/lib/fireos.hardware.audio@4.0.so|a599c7b181b6a6ea1a2b6aee3ea1bb81999b41e2
+vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so|d46913f93f4f683faf237bf84f388e38b5de725f
+vendor/lib/fireos.hardware.audiosignalprocessor@1.1.so|464ac55207c7316fe2957c01ba4cfbd1e8774f03
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so|e61eddfcec0e273bf7db2acca392aaa702c20c32
+vendor/lib/hw/android.hardware.audio@4.0-impl.so|05ddb473fded78f1b56127759cba4254badc8549
+vendor/lib/hw/audio.btle.default.so|3782054e16f3323617efb3f3d7a641a2c2bac918
+vendor/lib/hw/audio.primary.default.so|0fe30b987d73bafcb2d7750a80e965bcabe93a91
+vendor/lib/hw/audio.primary.mt8695.so|473abd135b059ff83a311a4ba59ea44e3974bf0c
+vendor/lib/hw/audio.primary.proxy.so|30ad015109f8480808af752f2249aad72287c0ea
+vendor/lib/hw/audio.r_submix.default.so|b8480cb5c6d94ded85ea19cd00006f2b3f514adb
+vendor/lib/hw/audio.r_submix.mt8695.so|0b1e19cbf5e740a94a430cbc4e83756a2fcab576
+vendor/lib/hw/audio.stub.default.so|05554b044d7f22be7c38e662fc8bf012b8ef10c5
+vendor/lib/hw/audio.usb.default.so|a5627518290796da245a37e700be3016a367b690
+vendor/lib/hw/audio_policy.stub.so|851f2913206db7bfe260ad346399792ebd5ec8d3
+vendor/lib/hw/fireos.hardware.audio@4.0-impl.so|2d44f904f953eb6bbbd2d09ddc0c267ca68a44af
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek|a604366ccc7d59c33ad1a2b2ce4e0d102c54764e
+vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc|c0faa0b541a18bd575106ef778eecc8da7610e38
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so|30f5ee9004417e51a0452c396f52e887afc35812
+vendor/lib/libbluetooth_mtk.so|37a538c91de6e1a345f67445b22c722e0ab5d460
+vendor/lib/libbt-vendor.so|6b3b4f33057830d6fefa280c3257763c6eec238e
+
+# Camera
+vendor/bin/hw/android.hardware.camera.provider@2.4-external-service|1b4cab141905650c5c459382ca36aa6807eda3ac
+vendor/etc/init/android.hardware.camera.provider@2.4-external-service.rc|287f022ce31072c5eb56904babeeedb162585858
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|425f8f2d354417a8b079126ada974da5d524929d
+vendor/lib/libvdec_app.so|618c1f06947548ae24b6813916c00e783fdcd81b
+
+# Configstore
+vendor/bin/hw/android.hardware.configstore@1.1-service|43033a5fead8faa4b7b5e3773f0ca73557bf5680
+vendor/etc/init/android.hardware.configstore@1.1-service.rc|80e7bfbb733401116b4a1d569d610d3729edfa25
+
+# DRM
+vendor/lib/liboemcrypto.so|557026b6edcf72b1729da79a740acfcb779614af
+
+# DRM-HDCP
+vendor/lib/libhdcprx.so|f460b442b3f6a32d0359f9c4e840478e614b75a6
+
+# DRM-Hardware
+vendor/bin/hw/android.hardware.drm@1.0-service|41b029cfa275b401a8c6905d18c326d7908ff789
+vendor/bin/hw/android.hardware.drm@1.1-service.clearkey|0aa83b771b688db0b1d50e023ffa18bb60cea389
+vendor/bin/hw/android.hardware.drm@1.1-service.fairplay|fb4ba7a52dba2a3fb46e274dd7e01e4c253e65bf
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|20d43cdd3cef486f88346cd3ed3193963da56a74
+vendor/bin/hw/fireos.hardware.drmprov@1.0-service|12885d53eca6dbb7f796de9fdd6abfa8618a0ccd
+vendor/etc/init/android.hardware.drm@1.0-service.rc|90c6c5dacb0f2866331c80d5b451cdd13f3e3130
+vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc|acf0c3c835d4cf105b8832b9fd16046042aad629
+vendor/etc/init/android.hardware.drm@1.1-service.fairplay.rc|5ad541e979f5ff4a0038444a30b58c559f8bbfb3
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
+vendor/etc/init/fireos.hardware.drmprov@1.0-service.rc|7fed97467e0635f863dd97a08a86e5a43aaa1b17
+vendor/lib/fireos.hardware.drmprov@1.0.so|a5dbd35b495b3a1bf58d9ac8bbbec96230009f8e
+vendor/lib/hw/android.hardware.drm@1.0-impl.so|267d997b3a30a9fcd89ab0376f748bc33ffe7e42
+vendor/lib/hw/fireos.hardware.drmprov@1.0-impl.so|3abb54e96efdd60d2badbb8dd192255549fb774a
+
+# DRM-Widevine
+vendor/lib/libwvhidl.so|e7257118ebf0f5d631410a4fde3a92bddf093aa1
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|466d4eb669fa3ab6ae7c58befc77e1e64496b117
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so|a234143aa21f72ecbd1108f209f85a18de9ba3ea
+vendor/lib/mediadrm/libplayreadydrmplugin.so|6e06c3705075e4608aec2a44ed2babd21a2a7cec
+vendor/lib/mediadrm/libwvdrmengine.so|84271d1f1214e5a72c9a9500e97a8d61fc013d8b
+
+# Display-Hardware
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service|0fd08406b4dce8fe82f705fcb16a62a4e029bb14
+vendor/bin/hw/android.hardware.graphics.composer@2.1-service|09e78de1c3ee0799f73f198d3e12caf71ea423f7
+vendor/bin/hw/android.hardware.memtrack@1.0-service|99cd2d105ffa9d41fd72eb29fc17bc701c559267
+vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc|c4ffe1f25345db6243ae1444c9f9711e265e7084
+vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc|ec873a2665e2e4e850a58d1d1af45219ae45c8d7
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc|97170c1b52807f07c7ed69468b36dec08860e164
+vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so|378f01dfa5dc98c3b4a47193f137bcefbc8e7c3d
+vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so|39211f7647fe5942091672a4c814bece8a659d1c
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so|5c49d6a1ffa4d4d2e1b199850e35e499ad3379cd
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so|dac9542b3d4486d16b85686c066d5dae2b454466
+vendor/lib/hw/gralloc.default.so|b5e11ee1a9bb3f2516572a172c549f187227f598
+vendor/lib/hw/gralloc.mt8695.so|28fac0303b7045c5f40f85f8418f21446b483da0
+vendor/lib/hw/hwcomposer.mt8695.so|5863fe59abf2ab0aa1c78472151caae237a8f607
+vendor/lib/hw/memtrack.mt8695.so|fa640b56d7104230c8df41bbc605a4e55b1820ff
+vendor/lib/libdrm.so|fbdd9d72198ccf27e8e187f3a801428a45b10b81
+
+# Dolby
+vendor/etc/media_codecs_dolby_audio.xml|1ca1114b33b6faf4b7abaf89d8b687e2ea4c5f7e
+vendor/lib/libstagefrightdolby.so|e70f08da1bb7bb815042cab5f01868006e424657
+
+# Firmware
+vendor/firmware/bt.cfg|a2a2c00592f5c24857a94e4bcdb287e19c880a01
+vendor/firmware/EEPROM_MT7663.bin|ac279cf561fd1042a951938b82e0e500d09f7bfa
+vendor/firmware/mt7663_patch_e2_hdr.bin|f3a81c88b3baad315fbcb872f9b5ed8e3938ad92
+vendor/firmware/pcm_allinone_lp3_1866.bin|0348c8d2705b236d71c650255bc45d2485584ef8
+vendor/firmware/pcm_allinone_lp4_3200.bin|e8c28958bb6d9eac8acb2a67924da657d2f33f11
+vendor/firmware/pcm_allinone_lp4_3733.bin|f0dfe612a03fb7be2ba98cfc07b2546d9960f100
+vendor/firmware/rgx.fw.signed|e04012e59ea56c3feb943a6860566f797dcb03fa
+vendor/firmware/TxPwrLimit_MT76x3.dat|9909d9ad1774eb8c8d63939cac209ccf65af5ea3
+vendor/firmware/wifi.cfg|c058c09de7e818b2573225a1158fa61d1367f3c6
+vendor/firmware/WIFI_RAM_CODE_MT7663.bin|50da454e324d124b79f0354079f150cf7955ad44
+vendor/firmware/woble_setting_7663.bin|68f7a45242302d588c724fa49ea51abab74a1c4c
+
+# GPS
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service|95798ccd848c34c64524a5d3902a01c730dc1769
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc|14787a28eab3435381646dde6e92e6d286a69fe2
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so|030a112e01626115ab5096fbf64833f35d27ed65
+vendor/lib/hw/gatekeeper.mt8695.so|5dcaf58bfeb109403cb54f874ce94d3e9b044c01
+
+# Graphics
+vendor/lib/egl/libEGL_POWERVR_ROGUE.so|4d70494bca49fb32b058c98160d1207118d5d389
+vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so|fea94f85002d633d6b09722ba516f44c48a72176
+vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so|01f96daa81fdd1f9c5729048066f1ad145559f54
+vendor/lib/hw/vulkan.mt8695.so|fc883c43b9cf2e80f58198fc2578e94eed82b27d
+vendor/lib/libOpenCL.so|f6926f1d439d51b5c9fa2f0580c270c046041784
+
+# Health
+vendor/bin/hw/android.hardware.health@2.0-service|ceb1d4750ec7c9c5e5616bf0e4e3c19be74b6173
+vendor/bin/hw/android.hardware.health@2.0-service|ceb1d4750ec7c9c5e5616bf0e4e3c19be74b6173.override
+vendor/etc/init/android.hardware.health@2.0-service.rc|cdb3a82863c177181cb2b7c11203d0e3e74d61a9
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service|48c94cb9094b0ce1c76ae37f439cbdd4fdd71b5f
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc|b0452f92b1f0ae823e928890a6e4ece25473e7be
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so|ae8d04872ba61c0375bf39505d0c3a4f899544fc
+vendor/lib/hw/keystore.mt8695.so|43611bf0593278fffb251347bf773b585a9a9d11
+vendor/lib/libkeymaster3device.so|b9db6a9ea6864320d7b1ee840eaff57084dd1d24
+vendor/lib/libkeystore-engine-wifi-hidl.so|92da7e9ad52654ce906450279b72922dbfdff0ed
+vendor/lib/libkeystore-wifi-hidl.so|d67fb188d631d524c17196f60bcec995e9b2dc48
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so|83504b33b740cece7a10eb7b22b20cb7820a312c
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so|12edb83dceb6d25ff0f943561e8c220e5c9127dc
+
+# Listen
+
+# Media
+
+# Media-Hardware
+vendor/lib/libstagefrighthw.so|6262adedb29b484c059b0429b61367fe48a49c96
+
+# Mediatek
+vendor/bin/hw/android.hardware.usb@1.1-service-mediatek|89a231cda28ae1d0cba0449ddeeb3867421d0f61
+vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek|3ee41809f51422a7d797aae7f4fa6bc8b37bd37a
+vendor/bin/hw/vendor.mediatek.hardware.hdmi@1.1-service|86de32b79579b1ecb81a06312a125a44a554431d
+vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service|79456bceed1fa92d6f4ee3272fb011cb4a5062b2
+vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc|13d4a6741db0c8a9f197c036eac90167dafa369e
+vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc|814db5fbf9efa1e3d3ec608b31e4b1109cae5135
+vendor/etc/init/vendor.mediatek.hardware.hdmi@1.1-service.rc|bf569990dfd2abeee2d407e34c7aac424c2305a8
+vendor/etc/init/vendor.mediatek.hardware.keymanage@1.0-service.rc|68103fa7d1d14942cd1e1f2d1179340ecc19953f
+vendor/etc/media_codecs_mediatek_video.xml|61d61eeaee25c6fc12807cddb272d153a919fef5
+vendor/lib/hw/vendor.mediatek.hardware.hdmi@1.1-impl.so|18b8622ca9ef348a09db8470fe6c321aa2820e9d
+vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so|2b96f22bdb4b45cdcea90dfc0becf24a9a0f8241
+vendor/lib/libmtkaudiospdif.so|73107b6e9f4c7cb2c61fd4363b80629a4e4416fe
+vendor/lib/libmtkbufferqueue.so|e8b6be7236b0293c437bc24efd5d011f2b03a444
+vendor/lib/libmtklimiter_vendor.so|a39d2dbc0ea41b6c5052cd7d3996186072552aa2
+vendor/lib/libMtkOmxCore.so|fd85526f0ab50da4b40f5bb3129160f03c1d8a25
+vendor/lib/libMtkOmxVdecEx.so|682179398f885a6664a9309b71d67bd5e88e0080
+vendor/lib/libMtkOmxVenc.so|62726bd7029c18af207df560eaee0cd669d421ed
+vendor/lib/libmtkshifter_vendor.so|3f7fb87c5d10d45ce405b29ad65f06696169bec9
+vendor/lib/libmtk_drvb.so|13b62e5f0a4b9bde7df4bc4dc6098f404e98f95a
+vendor/lib/libmtk_eglx.so|4a8385e1a9ca25ed3890e6e23a0200b049adcdd4
+vendor/lib/libmtk_gralloc_common.so|5bbde36296b226996be82369d0b8bd82ed246633
+vendor/lib/vendor.mediatek.hardware.hdmi@1.0.so|80ed33994cdfa4b28e36092119b49d2629967b5b
+vendor/lib/vendor.mediatek.hardware.hdmi@1.1.so|2041f5497c707cfb60a0c5c313a03bb274dbb596
+vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so|38dccdc812a8642c6a0d82a2efa06766f7361060
+vendor/lib/vendor.mediatek.hardware.lbs@1.0.so|a00e8ea3d02fce44aeb00a5675fd9b3cfffc0735
+vendor/lib/vendor.mediatek.hardware.nvram@1.0.so|53f29011011c55064279c8f585c0b0c1cdce7076
+vendor/lib/vendor.mediatek.hardware.nvram@1.1.so|1a1e87f2ef5578972416a9bbc3f225b098759ede
+
+# Perf
+
+# Postprocessing
+
+# Power-Hardware
+vendor/lib/hw/power.default.so|1b5d6a7e71930e314df082c475549a6a14e05824
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Thermal
+vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service|a901ca5498c61fec7507d8674706f86c9085c33f
+vendor/etc/.tp/thermal.conf|460c7e6ad99bcb4d54740789af599bce7a83072f
+vendor/etc/.tp/thermal.off.conf|106d51762dcc4e69ebe388089ab97a16b9867a00
+vendor/etc/.tp/thermal.policy.conf|3b2892e0ff914aed9708d8b15be87afd1d825f00
+vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc|c9a37740c9e051ed66c3deb4cc9ac2cf55ff3f9f
+vendor/lib/fireos.hardware.amazonthermal@1.0.so|05609726817b22371a390e539f6c20b84fcb631f
+vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so|cdbd9e8595780b5e8942f0aef6b8e1ff32216682
+
+# Thermal-Hardware
+vendor/lib/hw/thermal.mt8695.so|3890bc622408a35801b23522f1acd587a22c6284
+
+# Time
+
+# Vibrator
+vendor/lib/hw/vibrator.default.so|f99dbac465258325e93461ad599ddc37e01bf4c7
+
+# WiFi
+bin/iwpriv|
+vendor/bin/iwpriv|0797abdf8cacd40ee78cb120ca50af0f4e3482d4|
+
+# Misc
+vendor/bin/amzn_dha_hmac|f8127745ada5a85c1f75b69a507cb4ad32b64d4f
+vendor/bin/amzn_dha_tool|07ba1dfe1e0cc284fbb63383c75c9bf53db45a6d
+vendor/bin/amzn_drmprov_check|6e6b77d2266e602d995eda94460e4ac83b56fda6
+vendor/bin/amzn_drmprov_tool|b03ef7d47b1961ae8476899175b32c18a9e74b31
+vendor/bin/amzn_xo_tool|1c45f39a128e142014219c9d19ca01d3c6f2bb52
+vendor/bin/avsyncservice|eca3ef12323dde68fc449e1d743b4ed27944e42f
+vendor/bin/btmac|d4b26d2919dd95388f1b3a6b0299e6c432a6c5da
+vendor/bin/cli|1c11689a8f186752fc39b2bf399d08c0ac8389e3
+vendor/bin/hw/android.hardware.tv.cec@1.0-service|0683929ce924859dd9d31a884dd3815747a142d1
+vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service|323f89b30517acd29d624e8753714b088861d99e
+vendor/bin/hw/fireos.hardware.fireosdha@1.0-service|a62aa3a7a8bf72443546fd9efb9437a9b4492468
+vendor/bin/hw/fireos.hardware.hdcp@1.0-service|c086cd5239523740ca8da830662ebf64a8ff09c2
+vendor/bin/hw/fireos.hardware.hdmitxinfo@1.0-service|bfd6e7baeda667523cdab43927d16204be4fa7db
+vendor/bin/hw/fireos.hardware.idme@1.0-service|5cbdeee373666538735a34c833e127d2f270f15e
+vendor/bin/hw/fireos.hardware.localtime@1.0-service|d49a2d2ee955aa60112a43e38bbe3675553a5612
+vendor/bin/hw/fireos.hardware.mediametrics@1.0-service|c74dac1a1647c4adfce7980daa73b46bcefdc100
+vendor/bin/idme|8759baee3fbd5a8cfac4dfe71549f7863c52dfa9
+vendor/bin/kisd|060e3cd8a41a51aa991d67b7e82aa5c205fd116e
+vendor/bin/meta_tst|53ad1f3bf0567f46afda1d924eaa32d5b235950e
+vendor/bin/mfv_ut|8bc6213469c766f239e59dbcc2e5a4f2c6266352
+vendor/bin/nvram_daemon|d0fb85a1e58cccdf14a3c75b283e26fd294e1e44
+vendor/bin/pr_device_cert_id|37935faf243202c9f3150d6dc03b1c7007977441
+vendor/bin/rpmb_svc|e05ea1007131351df1ff62ef57242760189aecc0
+vendor/bin/securetime|2b87fe613fac2e945946b1ae991089797783aadc
+vendor/bin/wipe_fos_flags|f0e123fd7dcbe2f6e0987b9aae42bd542943cd0f
+vendor/data/misc/ProjectConfig.mk|365e9ebe3e91727082b8f52833cfd0af9f5c0998
+vendor/etc/.tp/.ht120.mtc|b3f5b1012191842e4c74bfe08786028070a922ba
+vendor/etc/external_camera_config.xml|f69472a2ed7f220a7577d0108441a866fe8bb728
+vendor/etc/hearing_aid_audio_policy_configuration.xml|1d047419eccdbed0f111d246842f5107bef39707
+vendor/etc/init/amzn_drmprov_check.rc|da1fbbda94871a18e1e51f921f38a4049b93e0a8
+vendor/etc/init/amzn_xo_tool.rc|34e8467573f15f73766e8f93696abab727ba8b9f
+vendor/etc/init/android.hardware.tv.cec@1.0-service.rc|75f4749c2f7e7e803ea7bea3d5aa58b4223dc967
+vendor/etc/init/avsyncservice.rc|6ce447d46181b3d18881db7018c481ce8641edd9
+vendor/etc/init/bootperf.rc|805a0cd61705c8362e2544239e30eb812e2e7dad
+vendor/etc/init/btmac.rc|ee24698744a63307381e0581b78aa7a945f833af
+vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc|8c85a01d43f412cda480342b5467e17791c4862e
+vendor/etc/init/fireos.hardware.fireosdha@1.0-service.rc|c7fda1060b6ff4917309b03ea3f68c278e0d2816
+vendor/etc/init/fireos.hardware.hdcp@1.0-service.rc|7589c782896d0a563c0ea1c534f3512a7b0cb880
+vendor/etc/init/fireos.hardware.hdmitxinfo@1.0-service.rc|1415fae89caa2ab394c9817a68dc06a2604b9ffa
+vendor/etc/init/fireos.hardware.idme@1.0-service.rc|257f00afb40dba3bc120da88af3c486cd18fd968
+vendor/etc/init/fireos.hardware.localtime@1.0-service.rc|c8145f230426f219710d4a16c1af47e97fa92cf4
+vendor/etc/init/fireos.hardware.mediametrics@1.0-service.rc|e2547fea76cef0977b8b34cb6c496fbd3e503ed5
+vendor/etc/init/init.wipe_fos_flags.rc|0275b1da5281ebccd5d06f39a205656f4a3ee43f
+vendor/etc/init/kisd.rc|bdff35f82a00ba3a3f592fb7a563712a82bf546d
+vendor/etc/init/nvram_daemon.rc|c55547dfa6656c7d89788036331f074c52701ab1
+vendor/etc/init/pr_device_cert_id.rc|df5b6b071a80dbfb370062f6de181662541dbe3e
+vendor/etc/init/rpmb_svc.rc|80c283b558ea8c04edcb70313a63f33d86d81208
+vendor/etc/init/securetime.rc|f4038a8763a317f22b8d37d8d5e802c8e9638398
+vendor/etc/init/wifi_log_levels.rc|75119fc7415586da293d4725351eb81346dde26d
+vendor/etc/mtk_omx_core.cfg|25e15f9c030b7e61c71a2c504abcb40a8678d9ec
+vendor/etc/partition_permission.sh|ee219f68a6f64452ac043c1d39d52c7b22daff70
+vendor/etc/throttle.sh|7060924be276c199e8373dc2f59865dddba64672
+vendor/lib/fireos.hardware.avsync@1.0.so|6ba45a52a37834bf8cd2e9b119ac4b328c14ca12
+vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so|cc042ac59ce0b4764d9e49cb5d90ddc834a85b8f
+vendor/lib/fireos.hardware.connectivity@1.0.so|d10bf9ad64b5538298f6b22380cd7938da8c8d9f
+vendor/lib/fireos.hardware.fireosdha@1.0.so|bc90997d28327eea04f93ad076d59d0020df1501
+vendor/lib/fireos.hardware.hdcp@1.0.so|ac9459fabc72deea0a10d396bda7e1a5ae43a8be
+vendor/lib/fireos.hardware.hdmitxinfo@1.0.so|3ccfbef81528e543a04536f0f9370ec2eb648731
+vendor/lib/fireos.hardware.idme@1.0.so|4aa8ef1039a929cfbda7d8f7e38309dd77dcaf68
+vendor/lib/fireos.hardware.localtime@1.0.so|b542b1005df728d43f1104f5c36e2e8a04aaf1e3
+vendor/lib/fireos.hardware.mediametrics@1.0.so|b727b51537449eaba24dc423096268b3d33b05ca
+vendor/lib/hw/amzn_dha.mt8695.so|961ae9f4b391a1c55c72e42f63620061adfac51b
+vendor/lib/hw/amzn_drmprov.mt8695.so|c2668d73f57aaa5fbef87696d8dacad97e9a6f97
+vendor/lib/hw/android.hardware.tv.cec@1.0-impl.so|ca536f0fbde4cd812eaa02dbf30cf16157e91868
+vendor/lib/hw/fireos.hardware.avsync@1.0-impl.so|a089a8055fd9287fa2055394639d84501ca3375e
+vendor/lib/hw/fireos.hardware.fireosdha@1.0-impl.so|192c4b64d95d4d0e731e9e4cdcf9d643773d30a4
+vendor/lib/hw/fireos.hardware.hdmitxinfo@1.0-impl.so|f093d8874eafe8b2a2049aaa46b2f7e223977eaf
+vendor/lib/hw/fireos.hardware.idme@1.0-impl.so|9c318fd1f92c9b8123a37600ddd6b0c74057fe9a
+vendor/lib/hw/hdmi_cec.mt8695.so|f5a409b355efd55314f1bc3df1f6d1478abcc37e
+vendor/lib/hw/libSoftGatekeeper.so|5fa91eafa85b519e76d01f8094038b3feb88dd8d
+vendor/lib/hw/local_time.mt8695.so|b4fbbe46b7c120a0165e1544200ac0c0ab6c1d74
+vendor/lib/hw/tv_input.default.so|a2e5cc4c812cb0c076b309f4fe3a2ddf8fe06b31
+vendor/lib/libamazonlog.so|c358b2c021a0509c4c7fbbd6330cc6181ff96ea2
+vendor/lib/libavsync.so|7e464b27fdcd938923e595814e585cf2b82fb576
+vendor/lib/libavsyncwrapper.so|626b46d8e600e1192f21efe5b9c526f27805d921
+vendor/lib/libblisrc32_vendor.so|5006b7780b73c5e591ee819739a4f3e577bf1da8
+vendor/lib/libbwc.so|6a673fcc4fa464f0d17ed8f6d767e66196d2154b
+vendor/lib/libccci_util.so|db6dfc2ce813df17e416ccae363ed25f9f1df48a
+vendor/lib/libcommon_time_client_vendor.so|d411297b575a676010d2f4c9e996dcab894c34e2
+vendor/lib/libcustom_nvram.so|483f017f73d4a7ad32032ed3ebfb075f322bef04
+vendor/lib/libdirect-coredump.so|e20a23fd828a73892973c18f6385dbd180f60e84
+vendor/lib/libdpframework.so|10ba8e49f3b0dea18bdb587698596dc8590589ee
+vendor/lib/libeac3dec.so|8104489582894389833cb1b647c1f02ccd8fe3ac
+vendor/lib/libfbm.so|63fb72d28e4cbc7b22dfd18fa4c08a9f9fbda3b4
+vendor/lib/libfile_op.so|732fbcf101c27c81ca0b7b3c5b540e2f4bd42764
+vendor/lib/libFPS.so|ee12478974bfb6c49f96b753381ff4f55e4bd006
+vendor/lib/libfpsplugin.so|5876cc41fdd69f85a0e14f86bf91d1317e95fc41
+vendor/lib/libglslcompiler.so|cd5537fbb3dc52d219338cbd1f85421d5f62533a
+vendor/lib/libgralloc_extra.so|6ad276607813758c28f580f790778354145b0116
+vendor/lib/libhwm.so|e65cb32e11f9d9f1e060f1855c85d0824afcb5ca
+vendor/lib/libhwminijail.so|ad38453b31158147845bc5dfd4048cc4da62e54b
+vendor/lib/libIMGegl.so|3c1cabd5924400a7f76b2feecf6e5b2dcaa56f66
+vendor/lib/libion_mtk.so|ae0b2bb719b681ff9aa721daea6fb23421855c28
+vendor/lib/libion_ulit.so|15626ca87090bc16fd3b48f4880f054c5b34259a
+vendor/lib/libkmsetkey.so|7451826e6cbc4a54a2d39fd88f972f3704aacf09
+vendor/lib/libladder.so|98c7365c7b64bcbb376ddbcea1ee631c507ea8c3
+vendor/lib/liblatencybenchmarker_interface.so|117e7c3a8b630838325e12f0a10fcce2193aad4d
+vendor/lib/liblatencybenchmarker_vendor.so|40810408b8a0359ea1b91e78c1f38488dc857b0a
+vendor/lib/liblineartransform_vendor.so|821f91933e13ecd0c9775a0921d5c3952931c3fc
+vendor/lib/libm4u.so|989a47ea270c6a757023075cab839fed3ebf26fc
+vendor/lib/libmediaextension_vendor.so|a82185c69a927f642d7d42c8ac4bfadb8e43e437
+vendor/lib/libmemtrack_GL.so|7925650a81ea9775c4f9b48af46fa6b7a6cd272f
+vendor/lib/libms12.so|e9d68ff6397abcf0a850d2333d59f68280b4ed06
+vendor/lib/libnvram.so|fcd62c62d056f96e73788a12c7d90eb7ae1d4c03
+vendor/lib/libnvram_daemon_callback.so|b00d8258aefb3a827df60d0ef1dadcff07313b1b
+vendor/lib/libnvram_platform.so|4e2df7a1bd89e8f5936924ec7a941877305a5e69
+vendor/lib/libopuscodec.so|c5249a7e823ab1be39fb36db0e4cf1d47fd6808f
+vendor/lib/libplayready.so|c4dde77aaf4e49bff43c4e34ecd1c455e34b32af
+vendor/lib/libpostprocessingFW.so|6bd5f54980bd67a421b92bd8f76fc575fdd24d28
+vendor/lib/libPVROCL.so|476009054627671ab1325902314b3830d8ed25c7
+vendor/lib/libPVRScopeServices.so|c362f40ef1ec90e260d44d1a872baba100fe9821
+vendor/lib/libsrv_um.so|68fe79ecdf2191f965d3fe203e84c99ef093b81f
+vendor/lib/libstagefright_soft_eac3dec.so|aa4c8ce254e7bd5998336b1a013452886de8d581
+vendor/lib/libsysenv.so|2840579468aabae6fd4ebccd97e0b0e08a32505d
+vendor/lib/libTAFps.so|d4b304e412c4c8823e37b8e787b09055453accd6
+vendor/lib/libtqvalidate.so|4abf4afcca1b6f3d26319a4e802e58ce216d27c6
+vendor/lib/libtz_uree.so|cedf7755f252d8b4adedcd5b66e59fe096ae459e
+vendor/lib/libudf.vendor.so|74568c4b019720d26b8ab04b565141e0b52c0bed
+vendor/lib/libufwriter.so|a76f5f8ba0cfde7e5e835900e9ac529a6f77fc60
+vendor/lib/liburee_fps.so|0e8d7598b5ab198c45c4f0b8b557bebff30920e1
+vendor/lib/liburee_meta_drmkeyinstall_v2.so|b46b43cdcc1505a34826a67307c6f78d339ae395
+vendor/lib/libusc.so|b3a31c5de4e086c3efcbc94c048f76832f3d44e8
+vendor/lib/libvcodecdrv.so|b4d93707a8629749103ced4c367d52e29a81a761
+vendor/lib/libvcodec_oal.so|ef37a57d52f6abe560da8fd6e5f515dc8bc733f0
+vendor/lib/libvcodec_utility.so|33e4bc005f1d499c34459bbc1dfc37c2692d72ef
+vendor/lib/libvendoraudiospdif.so|b73227de0a64c652ba19c6c1d15e8d93a71b0760
+vendor/lib/libwifi-hal.so|fe6a89fcf73cea0fef51148b9e75f8c68ee9ac41
+vendor/lib/lib_uree_mtk_modular_drm.so|d1a13d316c4b273771c01ae3b3af7c263d91dc08
+vendor/lib/lib_uree_mtk_video_secure_al.so|db6a77b1de6ffffcf518c883b3e5176fa8fad90a
